@@ -20,7 +20,7 @@ Options:
 [![Screen Shot](https://raw.githubusercontent.com/KDet/Roads/master/images/2DotsWay1.png)](https://github.com/KDet/Roads)
 [![Screen Shot](https://raw.githubusercontent.com/KDet/Roads/master/images/2DotsWay2.png)](https://github.com/KDet/Roads)
 
-The red markers on the screen - simulation of taxi traffic
+The red markers on the screen is a simulation of taxi's traffic
 [![Screen Shot](https://raw.githubusercontent.com/KDet/Roads/master/images/2DotsWayMovement.png)](https://github.com/KDet/Roads)
 
 #### Path between user location and same point
