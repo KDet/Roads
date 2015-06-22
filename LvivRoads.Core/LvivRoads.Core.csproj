@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40945D61-9688-42A2-926F-976BD39B7A6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LvivRoads.Core</RootNamespace>
+    <AssemblyName>LvivRoads.Core</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Extensions\DateExtension.cs" />
+    <Compile Include="Extensions\WebRequestExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BaseSigningService.cs" />
+    <Compile Include="Services\Constants.cs" />
+    <Compile Include="Services\Direction\DirectionLeg.cs" />
+    <Compile Include="Services\Direction\DirectionRequest.cs" />
+    <Compile Include="Services\Direction\DirectionResponse.cs" />
+    <Compile Include="Services\Direction\DirectionRoute.cs" />
+    <Compile Include="Services\Direction\DirectionService.cs" />
+    <Compile Include="Services\Direction\DirectionStep.cs" />
+    <Compile Include="Services\Direction\Polyline.cs" />
+    <Compile Include="Services\Direction\StopStation.cs" />
+    <Compile Include="Services\Direction\TransitAgency.cs" />
+    <Compile Include="Services\Direction\TransitDetails.cs" />
+    <Compile Include="Services\Direction\TransitLine.cs" />
+    <Compile Include="Services\Direction\Vehicle.cs" />
+    <Compile Include="Services\Direction\VehicleType.cs" />
+    <Compile Include="Services\DistanceMatrix\Avoid.cs" />
+    <Compile Include="Services\DistanceMatrix\DistanceMatrixRequest.cs" />
+    <Compile Include="Services\DistanceMatrix\DistanceMatrixResponse.cs" />
+    <Compile Include="Services\DistanceMatrix\DistanceMatrixResponseStatus.cs" />
+    <Compile Include="Services\DistanceMatrix\DistanceMatrixService.cs" />
+    <Compile Include="Services\Elevation\ElevationRequest.cs" />
+    <Compile Include="Services\Elevation\ElevationResponse.cs" />
+    <Compile Include="Services\Elevation\ElevationResult.cs" />
+    <Compile Include="Services\Elevation\ElevationService.cs" />
+    <Compile Include="Services\Geocoding\AddressComponent.cs" />
+    <Compile Include="Services\Geocoding\AddressType.cs" />
+    <Compile Include="Services\Geocoding\GeocodeResponse.cs" />
+    <Compile Include="Services\Geocoding\GeocodingRequest.cs" />
+    <Compile Include="Services\Geocoding\GeocodingService.cs" />
+    <Compile Include="Services\Geocoding\Geometry.cs" />
+    <Compile Include="Services\Geocoding\LocationType.cs" />
+    <Compile Include="Services\Geocoding\Result.cs" />
+    <Compile Include="Services\Geocoding\Viewport.cs" />
+    <Compile Include="Services\GMapsImageFormats.cs" />
+    <Compile Include="Services\GoogleSigned.cs" />
+    <Compile Include="Services\Internal\ConvertUtil.cs" />
+    <Compile Include="Services\Internal\Http\HtmlPageLoaderService.cs" />
+    <Compile Include="Services\Internal\Http\Http.cs" />
+    <Compile Include="Services\Internal\Http\IHtmlPageLoaderService.cs" />
+    <Compile Include="Services\Internal\Json\JsonLocationConverter.cs" />
+    <Compile Include="Services\Internal\QueryStringBuilder.cs" />
+    <Compile Include="Services\Internal\RequestUtils.cs" />
+    <Compile Include="Services\Internal\Json\JsonCreationConverter.cs" />
+    <Compile Include="Services\Internal\Json\JsonEnumTypeConverter.cs" />
+    <Compile Include="Services\Time.cs" />
+    <Compile Include="Services\Transit\ITransitService.cs" />
+    <Compile Include="Services\Transit\LvivTransitSimulatorService.cs" />
+    <Compile Include="Services\ValueText.cs" />
+    <Compile Include="Services\LatitudeLongitude.cs" />
+    <Compile Include="Services\LatitudeLongitudeComparer.cs" />
+    <Compile Include="Services\Position.cs" />
+    <Compile Include="Services\MapMarker.cs" />
+    <Compile Include="Services\MapMarkersCollection.cs" />
+    <Compile Include="Services\MapTypes.cs" />
+    <Compile Include="Services\MarkerSizes.cs" />
+    <Compile Include="Services\Path.cs" />
+    <Compile Include="Services\PolylineEncoder.cs" />
+    <Compile Include="Services\ServiceResponseStatus.cs" />
+    <Compile Include="Services\TravelMode.cs" />
+    <Compile Include="Services\Units.cs" />
+    <Compile Include="Services\ViewportComparer.cs" />
+    <Compile Include="Services\Waypoint.cs" />
+    <Compile Include="ValueConverters\PositionStringValueConverter.cs" />
+    <Compile Include="ValueConverters\StringPositionValueConverter.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\CurrentDirectionViewModel.cs" />
+    <Compile Include="ViewModels\CustomTransitViewModel.cs" />
+    <Compile Include="ViewModels\DirectionViewModel.cs" />
+    <Compile Include="ViewModels\LocationViewModel.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Model\Location.cs" />
+    <Compile Include="Model\Zombie.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="ViewModels\TransitViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Cirrious.CrossCore">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.2-beta1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross">
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.2-beta1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.2-beta1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Location">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Location.3.1.2-beta1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.Location.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.1.2-beta1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

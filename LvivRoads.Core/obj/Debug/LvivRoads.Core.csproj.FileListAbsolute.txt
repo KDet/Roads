@@ -1,0 +1,12 @@
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\LvivRoads.Core.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\LvivRoads.Core.pdb
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Cirrious.CrossCore.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Cirrious.MvvmCross.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Location.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\obj\Debug\LvivRoads.Core.dll
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\obj\Debug\LvivRoads.Core.pdb
+D:\Copy\Projects\LvivRoads\LvivRoads.Core\obj\Debug\LvivRoads.Core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lvivroads.gps" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+  <application android:label="LvivRoads" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAzpJXxcyhbk-t4unKS63gFqwFa2mz85KQ" />
+    <activity android:icon="@drawable/icon" android:label="LvivRoads.DroidICS" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="lvivroads.droidics.SplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="View for LocationViewModel" android:name="lvivroads.droidics.views.LocationView" />
+    <activity android:label="View for DirectionView" android:name="lvivroads.droidics.views.DirectionView" />
+    <activity android:label="View for DirectionView" android:name="lvivroads.droidics.views.CurrentDirectionView" />
+    <activity android:label="View for TransitView" android:name="lvivroads.droidics.views.TransitView" />
+    <activity android:label="View for CustomTransitView" android:name="lvivroads.droidics.views.CustomTransitView" />
+    <activity android:label="View for HomeViewModel" android:name="lvivroads.droidics.views.HomeView" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.lvivroads.gps.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.lvivroads.gps" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <!--<permission android:name="com.lvivroads.gps.permission.MAPS_RECEIVE" />-->
+  <permission android:name="com.lvivroads.gps.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+  <!-- We need to be able to download map tiles and access Google Play Services-->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- Allow the application to access Google web-based services. -->
+  <!-- Google Maps for Android v2 will cache map tiles on external storage -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <!-- Google Maps for Android v2 needs this permission so that it may check the connection state as it must download data -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.MAPS_RECEIVE" />
+  <uses-permission android:name="android.permission.READ_GSERVICES" />
+  <!--<uses-permission android:name="com.lvivroads.gps.permission.READ_GSERVICES"/>-->
+  <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+</manifest>

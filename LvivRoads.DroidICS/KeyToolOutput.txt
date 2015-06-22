@@ -1,0 +1,17 @@
+﻿C:\Users\Dima\AppData\Local\Xamarin\Mono for Android>"C:\Program Files (x86)\Jav
+a\jdk1.6.0_39\bin\keytool.exe" -V -list -keystore debug.keystore -alias androidd
+ebugkey -storepass android -keypass android
+Alias name: androiddebugkey
+Creation date: 28 ЄЁрт 2014
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Android Debug, O=Android, C=US
+Issuer: CN=Android Debug, O=Android, C=US
+Serial number: 53850bbf
+Valid from: Wed May 28 01:03:43 EEST 2014 until: Mon Aug 24 01:03:43 EEST 2043
+Certificate fingerprints:
+         MD5:  93:8C:2A:05:34:93:DE:88:F8:75:B2:9E:B4:8E:EF:BF
+         SHA1: A9:84:9C:4F:4B:48:C9:13:0E:84:1F:C9:10:58:F3:E9:1F:95:8E:53
+         Signature algorithm name: SHA1withRSA
+         Version: 3

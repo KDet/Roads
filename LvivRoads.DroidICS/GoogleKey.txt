@@ -1,0 +1,7 @@
+﻿Key for Android apps (with certificates)
+API key:	
+AIzaSyAzpJXxcyhbk-t4unKS63gFqwFa2mz85KQ
+Android apps:	
+A9:84:9C:4F:4B:48:C9:13:0E:84:1F:C9:10:58:F3:E9:1F:95:8E:53;com.lvivroads.gps
+Activated on:	May 29, 2014 8:38 AM
+Activated by:	 kravchyna@gmail.com – you

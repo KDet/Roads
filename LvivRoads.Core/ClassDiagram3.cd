@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="LvivRoads.Core.ViewModels.BaseViewModel">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LvivRoads.Core.ViewModels.CurrentDirectionViewModel">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <InheritanceLine Type="LvivRoads.Core.ViewModels.DirectionViewModel" FixedFromPoint="true">
+      <Path>
+        <Point X="12.438" Y="7.011" />
+        <Point X="12.438" Y="7.386" />
+        <Point X="6.375" Y="7.386" />
+        <Point X="6.375" Y="6.425" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CurrentDirectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvivRoads.Core.ViewModels.CustomTransitViewModel">
+    <Position X="14.5" Y="6.25" Width="2.25" />
+    <InheritanceLine Type="LvivRoads.Core.ViewModels.TransitViewModel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.625" Y="5.598" />
+        <Point X="15.625" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CustomTransitViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvivRoads.Core.ViewModels.DirectionViewModel">
+    <Position X="11.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAKAAAAEAgAIAAAgAIAAAAAgAAECAAAAA=</HashCode>
+      <FileName>ViewModels\DirectionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvivRoads.Core.ViewModels.HomeViewModel">
+    <Position X="5.25" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARA=</HashCode>
+      <FileName>ViewModels\HomeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvivRoads.Core.ViewModels.LocationViewModel">
+    <Position X="8.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQACAAAAAAgAIAAQAAAAAAAAAAECAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\LocationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvivRoads.Core.ViewModels.TransitViewModel">
+    <Position X="14.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAhABAAAAAgAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\TransitViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

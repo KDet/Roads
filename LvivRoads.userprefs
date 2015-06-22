@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Shared/Unity/4-0_AngryBots/Assets/Scripts/AI/SpiderAttackMoveController.js">
+    <Files>
+      <File FileName="../../../../Shared/Unity/4-0_AngryBots/Assets/Scripts/AI/AI.js" Line="1" Column="1" />
+      <File FileName="../../../../Shared/Unity/4-0_AngryBots/Assets/Scripts/AI/PatrolRoute.js" Line="1" Column="1" />
+      <File FileName="../../../../Shared/Unity/4-0_AngryBots/Assets/Scripts/AI/SpiderAttackMoveController.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
